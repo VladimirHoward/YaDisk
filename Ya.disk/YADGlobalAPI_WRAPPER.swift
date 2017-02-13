@@ -5,6 +5,7 @@
 //  Created by Gregory House on 13.02.17.
 //  Copyright © 2017 vvz. All rights reserved.
 //
+//изменения для добавления в Dev
 
 import Foundation
 import SwiftyJSON
