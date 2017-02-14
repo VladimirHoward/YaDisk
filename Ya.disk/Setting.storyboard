@@ -8,7 +8,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Setting View Controller-->
+        <!--Base Tabbar Controller-->
+        <scene sceneID="gTX-Qv-z6t">
+            <objects>
+                <tabBarController id="ss0-WC-5kd" customClass="YADBaseTabbarController" customModule="Ya_disk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="0xg-h5-4LY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="U2L-cZ-qE9" kind="relationship" relationship="viewControllers" id="sGB-8q-QPn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZoG-ZW-HUw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-570" y="133"/>
+        </scene>
+        <!--Настройки-->
         <scene sceneID="p6N-yn-EWz">
             <objects>
                 <viewController storyboardIdentifier="SettingView" id="U2L-cZ-qE9" customClass="YADSettingViewController" customModule="Ya_disk" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,10 +50,14 @@
                             <constraint firstItem="uve-Db-iyg" firstAttribute="centerX" secondItem="co1-sL-DhE" secondAttribute="centerX" id="jUB-ja-hhl"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Настройки" image="settings" id="xMI-ry-G17"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Pz-Mj-tEb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="146" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="settings" width="24" height="24"/>
+    </resources>
 </document>
