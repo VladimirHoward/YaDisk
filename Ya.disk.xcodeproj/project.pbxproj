@@ -99,6 +99,13 @@
 			name = Photo;
 			sourceTree = "<group>";
 		};
+		8407C32E1E5350C400B09BEA /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
 		8944A0C01E51BA1B009C55DD = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +221,7 @@
 		89BE85301E51F86E00954040 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				8407C32E1E5350C400B09BEA /* Setting */,
 				8407C3291E534D6200B09BEA /* Photo */,
 				89BE85311E51F88200954040 /* Global_READONLY */,
 			);
@@ -264,7 +272,7 @@
 				TargetAttributes = {
 					8944A0C81E51BA1B009C55DD = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = GB857ZG62U;
+						DevelopmentTeam = 3SD8DJJ978;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -489,14 +497,14 @@
 			baseConfigurationReference = B389CABEFE2ADC40C1CC144D /* Pods-Ya.disk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GB857ZG62U;
+				DEVELOPMENT_TEAM = 3SD8DJJ978;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MWPhotoBrowser",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
 				);
 				INFOPLIST_FILE = Ya.disk/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vvz.Ya-disk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,14 +517,14 @@
 			baseConfigurationReference = 6892791C7B2A888EE2C75663 /* Pods-Ya.disk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GB857ZG62U;
+				DEVELOPMENT_TEAM = 3SD8DJJ978;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MWPhotoBrowser",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
 				);
 				INFOPLIST_FILE = Ya.disk/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vvz.Ya-disk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
