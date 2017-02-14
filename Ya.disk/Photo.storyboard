@@ -9,7 +9,24 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Photo View Controller-->
+        <!--Base Tabbar Controller-->
+        <scene sceneID="d16-Kf-CPf">
+            <objects>
+                <tabBarController id="n0e-WT-b3r" customClass="YADBaseTabbarController" customModule="Ya_disk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="B91-Ay-SMk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="hXe-f7-Lec" kind="relationship" relationship="viewControllers" id="bnD-f9-02t"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j91-uI-ytt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="117"/>
+        </scene>
+        <!--Фото-->
         <scene sceneID="ZoW-NE-Ii8">
             <objects>
                 <viewController storyboardIdentifier="PhotoView" id="hXe-f7-Lec" customClass="YADPhotoViewController" customModule="Ya_disk" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,10 +51,14 @@
                             <constraint firstItem="fKU-dH-tDE" firstAttribute="centerX" secondItem="EWo-Xs-ept" secondAttribute="centerX" id="Y2f-JP-qZX"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Фото" image="photo" id="ybI-RZ-IAN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUj-xY-cB3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53.600000000000001" y="117.39130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="photo" width="24" height="24"/>
+    </resources>
 </document>

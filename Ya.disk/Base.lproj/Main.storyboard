@@ -20,11 +20,22 @@
                     </tabBar>
                     <connections>
                         <segue destination="Lq2-1c-7dx" kind="relationship" relationship="viewControllers" id="JIw-2K-xyk"/>
+                        <segue destination="ST9-BW-JDj" kind="relationship" relationship="viewControllers" id="fRz-LH-iuL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yes-YF-ZBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="962" y="-542"/>
+        </scene>
+        <!--SettingView-->
+        <scene sceneID="8Ym-j6-SE8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Setting" referencedIdentifier="SettingView" id="ST9-BW-JDj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Настройки" id="e8M-z9-cRV"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eWb-3U-kOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1932" y="-616"/>
         </scene>
         <!--PhotoView-->
         <scene sceneID="YZB-ba-bR6">
