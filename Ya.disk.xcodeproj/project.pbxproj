@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8407C32B1E534D7700B09BEA /* Photo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8407C32A1E534D7700B09BEA /* Photo.storyboard */; };
+		8407C32D1E534D9F00B09BEA /* YADPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */; };
 		8944A0CD1E51BA1C009C55DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944A0CC1E51BA1C009C55DD /* AppDelegate.swift */; };
 		8944A0D21E51BA1C009C55DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8944A0D01E51BA1C009C55DD /* Main.storyboard */; };
 		8944A0D51E51BA1C009C55DD /* Ya_disk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8944A0D31E51BA1C009C55DD /* Ya_disk.xcdatamodeld */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		6892791C7B2A888EE2C75663 /* Pods-Ya.disk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ya.disk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ya.disk/Pods-Ya.disk.release.xcconfig"; sourceTree = "<group>"; };
+		8407C32A1E534D7700B09BEA /* Photo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Photo.storyboard; sourceTree = "<group>"; };
+		8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADPhotoViewController.swift; sourceTree = "<group>"; };
 		8944A0C91E51BA1C009C55DD /* Ya.disk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ya.disk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8944A0CC1E51BA1C009C55DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8944A0D11E51BA1C009C55DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +91,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8407C3291E534D6200B09BEA /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				8407C32A1E534D7700B09BEA /* Photo.storyboard */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
 		8944A0C01E51BA1B009C55DD = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				89BE85231E51C33F00954040 /* YADBaseView.swift */,
+				8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */,
 				89BE85341E51F97A00954040 /* YADBaseTabbarController.swift */,
 			);
 			name = "View Controllers";
@@ -201,6 +214,7 @@
 		89BE85301E51F86E00954040 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				8407C3291E534D6200B09BEA /* Photo */,
 				89BE85311E51F88200954040 /* Global_READONLY */,
 			);
 			name = Storyboards;
@@ -280,6 +294,7 @@
 			files = (
 				8944A0DA1E51BA1C009C55DD /* LaunchScreen.storyboard in Resources */,
 				8944A0D71E51BA1C009C55DD /* Assets.xcassets in Resources */,
+				8407C32B1E534D7700B09BEA /* Photo.storyboard in Resources */,
 				8944A0E41E51BCC5009C55DD /* Podfile in Resources */,
 				8944A0D21E51BA1C009C55DD /* Main.storyboard in Resources */,
 			);
@@ -341,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89BE85241E51C33F00954040 /* YADBaseView.swift in Sources */,
+				8407C32D1E534D9F00B09BEA /* YADPhotoViewController.swift in Sources */,
 				89BE85221E51C26D00954040 /* YADBasePresenter.swift in Sources */,
 				89BE85291E51CB6000954040 /* YADOperationManager.swift in Sources */,
 				8944A0CD1E51BA1C009C55DD /* AppDelegate.swift in Sources */,
