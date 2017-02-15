@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Музыка-->
+        <scene sceneID="fce-Sl-oWx">
+            <objects>
+                <viewController storyboardIdentifier="MusicView" id="gws-hb-1uT" customClass="YADMusicViewController" customModule="Ya_disk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="12v-C6-joZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="jGI-zm-QFd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kab-dt-hKt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YADMusicViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pA-37-5d1">
+                                <rect key="frame" x="16" y="312" width="343" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Cdj-du-rc3"/>
+                                    <constraint firstAttribute="height" constant="43" id="ebM-rE-GW5"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="343" id="wHi-bI-j50"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7pA-37-5d1" firstAttribute="centerX" secondItem="kab-dt-hKt" secondAttribute="centerX" id="CfY-hr-b1l"/>
+                            <constraint firstItem="7pA-37-5d1" firstAttribute="centerY" secondItem="kab-dt-hKt" secondAttribute="centerY" id="Df1-2A-ayj"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Музыка" image="music" id="LPm-67-DSD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGm-9w-jSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="626.39999999999998" y="139.880059970015"/>
+        </scene>
+        <!--Base Tabbar Controller-->
+        <scene sceneID="ouS-j4-jhe">
+            <objects>
+                <tabBarController id="zmu-6J-kTN" customClass="YADBaseTabbarController" customModule="Ya_disk" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="VNI-W2-sIi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gws-hb-1uT" kind="relationship" relationship="viewControllers" id="leK-EP-e5Q"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qpj-nw-6pA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-332" y="140"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="music" width="24" height="24"/>
+    </resources>
+</document>
