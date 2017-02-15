@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SCv-gm-gzU">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SCv-gm-gzU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,60 +20,35 @@
                     </tabBar>
                     <connections>
                         <segue destination="Lq2-1c-7dx" kind="relationship" relationship="viewControllers" id="JIw-2K-xyk"/>
-                        <segue destination="gdp-An-X9y" kind="relationship" relationship="viewControllers" id="tXS-WU-Svv"/>
-                        <segue destination="T3Q-Aq-Hhu" kind="relationship" relationship="viewControllers" id="xX3-li-t5b"/>
-                        <segue destination="O4T-90-2CX" kind="relationship" relationship="viewControllers" id="EHB-Jl-8N8"/>
+                        <segue destination="ST9-BW-JDj" kind="relationship" relationship="viewControllers" id="fRz-LH-iuL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yes-YF-ZBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="962" y="-542"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="j7i-ac-kxd">
+        <!--SettingView-->
+        <scene sceneID="8Ym-j6-SE8">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="PhotoBar" id="T3Q-Aq-Hhu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Видео" image="video" id="Qej-eL-hNv"/>
+                <viewControllerPlaceholder storyboardName="Setting" referencedIdentifier="SettingView" id="ST9-BW-JDj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Настройки" id="e8M-z9-cRV"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iAe-k0-5jD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eWb-3U-kOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1966" y="-669"/>
+            <point key="canvasLocation" x="1932" y="-616"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="MnA-1b-qIn">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="MusicBar" id="gdp-An-X9y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Музыка" image="music" id="jJH-DN-Qd9"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fU0-bK-Cb3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1966" y="-595"/>
-        </scene>
-        <!--Storyboard Reference-->
+        <!--PhotoView-->
         <scene sceneID="YZB-ba-bR6">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="VideoBar" id="Lq2-1c-7dx" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="VideoBar" storyboardName="Photo" referencedIdentifier="PhotoView" id="Lq2-1c-7dx" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Фото" image="photo" id="KzR-LA-YzG"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LYH-GW-G07" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1966" y="-521"/>
-        </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="tvM-pn-f4o">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="SettingsBar" id="O4T-90-2CX" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Настройки" image="settings" id="CCv-hE-aUI"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0mO-8T-zmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1966" y="-453"/>
+            <point key="canvasLocation" x="1969" y="-543"/>
         </scene>
     </scenes>
     <resources>
-        <image name="music" width="24" height="24"/>
         <image name="photo" width="24" height="24"/>
-        <image name="settings" width="24" height="24"/>
-        <image name="video" width="24" height="24"/>
     </resources>
 </document>
