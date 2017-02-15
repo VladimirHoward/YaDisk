@@ -28,6 +28,10 @@
 		89BE852D1E51D4DC00954040 /* YADConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE852C1E51D4DC00954040 /* YADConst.swift */; };
 		89BE852F1E51E3FE00954040 /* YADGlobalAPI_WRAPPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE852E1E51E3FE00954040 /* YADGlobalAPI_WRAPPER.swift */; };
 		89BE85351E51F97A00954040 /* YADBaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE85341E51F97A00954040 /* YADBaseTabbarController.swift */; };
+		89BE85401E54982400954040 /* YADVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE853F1E54982400954040 /* YADVideoViewController.swift */; };
+		89BE85421E54984700954040 /* YADMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BE85411E54984700954040 /* YADMusicViewController.swift */; };
+		89BE85451E54986F00954040 /* Video.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BE85441E54986F00954040 /* Video.storyboard */; };
+		89BE85481E549A3600954040 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BE85471E549A3600954040 /* Music.storyboard */; };
 		A0D5191F87093D97919AE246 /* Pods_Ya_disk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 954AE1E2AEA0EF21EC7DBA4E /* Pods_Ya_disk.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +60,10 @@
 		89BE852C1E51D4DC00954040 /* YADConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADConst.swift; sourceTree = "<group>"; };
 		89BE852E1E51E3FE00954040 /* YADGlobalAPI_WRAPPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADGlobalAPI_WRAPPER.swift; sourceTree = "<group>"; };
 		89BE85341E51F97A00954040 /* YADBaseTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADBaseTabbarController.swift; sourceTree = "<group>"; };
+		89BE853F1E54982400954040 /* YADVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADVideoViewController.swift; sourceTree = "<group>"; };
+		89BE85411E54984700954040 /* YADMusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADMusicViewController.swift; sourceTree = "<group>"; };
+		89BE85441E54986F00954040 /* Video.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Video.storyboard; sourceTree = "<group>"; };
+		89BE85471E549A3600954040 /* Music.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
 		954AE1E2AEA0EF21EC7DBA4E /* Pods_Ya_disk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ya_disk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B389CABEFE2ADC40C1CC144D /* Pods-Ya.disk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ya.disk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ya.disk/Pods-Ya.disk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +160,8 @@
 				8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */,
 				89BE85341E51F97A00954040 /* YADBaseTabbarController.swift */,
 				8407C3311E53581E00B09BEA /* YADSettingViewController.swift */,
+				89BE853F1E54982400954040 /* YADVideoViewController.swift */,
+				89BE85411E54984700954040 /* YADMusicViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -227,6 +237,8 @@
 		89BE85301E51F86E00954040 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				89BE85461E549A2100954040 /* Music */,
+				89BE85431E54985000954040 /* Video */,
 				8407C32E1E5350C400B09BEA /* Setting */,
 				8407C3291E534D6200B09BEA /* Photo */,
 				89BE85311E51F88200954040 /* Global_READONLY */,
@@ -241,6 +253,22 @@
 				8944A0D81E51BA1C009C55DD /* LaunchScreen.storyboard */,
 			);
 			name = Global_READONLY;
+			sourceTree = "<group>";
+		};
+		89BE85431E54985000954040 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				89BE85441E54986F00954040 /* Video.storyboard */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		89BE85461E549A2100954040 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				89BE85471E549A3600954040 /* Music.storyboard */,
+			);
+			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +306,7 @@
 				TargetAttributes = {
 					8944A0C81E51BA1B009C55DD = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3SD8DJJ978;
+						DevelopmentTeam = GB857ZG62U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -306,10 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89BE85481E549A3600954040 /* Music.storyboard in Resources */,
 				8944A0DA1E51BA1C009C55DD /* LaunchScreen.storyboard in Resources */,
 				8944A0D71E51BA1C009C55DD /* Assets.xcassets in Resources */,
 				8407C32B1E534D7700B09BEA /* Photo.storyboard in Resources */,
 				8944A0E41E51BCC5009C55DD /* Podfile in Resources */,
+				89BE85451E54986F00954040 /* Video.storyboard in Resources */,
 				8944A0D21E51BA1C009C55DD /* Main.storyboard in Resources */,
 				8407C3301E5357A600B09BEA /* Setting.storyboard in Resources */,
 			);
@@ -373,6 +403,7 @@
 				8407C3321E53581E00B09BEA /* YADSettingViewController.swift in Sources */,
 				89BE85241E51C33F00954040 /* YADBaseView.swift in Sources */,
 				8407C32D1E534D9F00B09BEA /* YADPhotoViewController.swift in Sources */,
+				89BE85421E54984700954040 /* YADMusicViewController.swift in Sources */,
 				89BE85221E51C26D00954040 /* YADBasePresenter.swift in Sources */,
 				89BE85291E51CB6000954040 /* YADOperationManager.swift in Sources */,
 				8944A0CD1E51BA1C009C55DD /* AppDelegate.swift in Sources */,
@@ -380,6 +411,7 @@
 				89BE852F1E51E3FE00954040 /* YADGlobalAPI_WRAPPER.swift in Sources */,
 				8944A0D51E51BA1C009C55DD /* Ya_disk.xcdatamodeld in Sources */,
 				89BE852D1E51D4DC00954040 /* YADConst.swift in Sources */,
+				89BE85401E54982400954040 /* YADVideoViewController.swift in Sources */,
 				89BE852B1E51CCAE00954040 /* YADDependencyInjector.swift in Sources */,
 				89BE85351E51F97A00954040 /* YADBaseTabbarController.swift in Sources */,
 			);
@@ -505,7 +537,7 @@
 			baseConfigurationReference = B389CABEFE2ADC40C1CC144D /* Pods-Ya.disk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3SD8DJJ978;
+				DEVELOPMENT_TEAM = GB857ZG62U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MWPhotoBrowser",
@@ -525,7 +557,7 @@
 			baseConfigurationReference = 6892791C7B2A888EE2C75663 /* Pods-Ya.disk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3SD8DJJ978;
+				DEVELOPMENT_TEAM = GB857ZG62U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/MWPhotoBrowser",

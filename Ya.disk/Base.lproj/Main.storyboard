@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SCv-gm-gzU">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SCv-gm-gzU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,17 +20,19 @@
                     <connections>
                         <segue destination="Lq2-1c-7dx" kind="relationship" relationship="viewControllers" id="JIw-2K-xyk"/>
                         <segue destination="ST9-BW-JDj" kind="relationship" relationship="viewControllers" id="fRz-LH-iuL"/>
+                        <segue destination="ofP-ai-QmT" kind="relationship" relationship="viewControllers" id="z1B-Rs-HV6"/>
+                        <segue destination="nRK-ov-fhv" kind="relationship" relationship="viewControllers" id="jo8-aE-sHC"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yes-YF-ZBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="962" y="-542"/>
+            <point key="canvasLocation" x="1306" y="-543"/>
         </scene>
         <!--SettingView-->
         <scene sceneID="8Ym-j6-SE8">
             <objects>
                 <viewControllerPlaceholder storyboardName="Setting" referencedIdentifier="SettingView" id="ST9-BW-JDj" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Настройки" id="e8M-z9-cRV"/>
+                    <tabBarItem key="tabBarItem" title="Настройки" image="settings" id="e8M-z9-cRV"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eWb-3U-kOO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -47,8 +48,31 @@
             </objects>
             <point key="canvasLocation" x="1969" y="-543"/>
         </scene>
+        <!--VideoView-->
+        <scene sceneID="hHx-f3-Rah">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Video" referencedIdentifier="VideoView" id="ofP-ai-QmT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Видео" image="video" id="qoE-Pb-bzd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rgD-Xz-OPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1968" y="-472"/>
+        </scene>
+        <!--MusicView-->
+        <scene sceneID="GkN-BJ-5vY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Music" referencedIdentifier="MusicView" id="nRK-ov-fhv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Музыка" image="music" id="Rkb-Zi-5zU"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rQv-7d-NTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1960" y="-399"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="music" width="24" height="24"/>
         <image name="photo" width="24" height="24"/>
+        <image name="settings" width="24" height="24"/>
+        <image name="video" width="24" height="24"/>
     </resources>
 </document>
