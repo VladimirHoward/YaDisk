@@ -11,6 +11,22 @@
 		8407C32D1E534D9F00B09BEA /* YADPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */; };
 		8407C3301E5357A600B09BEA /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8407C32F1E5357A600B09BEA /* Setting.storyboard */; };
 		8407C3321E53581E00B09BEA /* YADSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407C3311E53581E00B09BEA /* YADSettingViewController.swift */; };
+		846360D01E5F2B7200299646 /* YADPhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360CF1E5F2B7200299646 /* YADPhotoManager.swift */; };
+		846360D21E5F2BA400299646 /* YADVideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360D11E5F2BA400299646 /* YADVideoManager.swift */; };
+		846360D41E5F2BCF00299646 /* YADMusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360D31E5F2BCF00299646 /* YADMusicManager.swift */; };
+		846360D61E5F2C3D00299646 /* YADSettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360D51E5F2C3D00299646 /* YADSettingManager.swift */; };
+		846360D81E5F2CAC00299646 /* YADPhotoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360D71E5F2CAC00299646 /* YADPhotoOperation.swift */; };
+		846360DA1E5F2CD500299646 /* YADVideoOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360D91E5F2CD500299646 /* YADVideoOperation.swift */; };
+		846360DC1E5F2CF500299646 /* YADMusicOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360DB1E5F2CF500299646 /* YADMusicOperation.swift */; };
+		846360DE1E5F2D1000299646 /* YADSettingOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360DD1E5F2D1000299646 /* YADSettingOperation.swift */; };
+		846360E01E5F2D7B00299646 /* YADPhotoAPI_WRAPPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360DF1E5F2D7B00299646 /* YADPhotoAPI_WRAPPER.swift */; };
+		846360E21E5F2DAE00299646 /* YADVideoAPI_WRAPPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360E11E5F2DAE00299646 /* YADVideoAPI_WRAPPER.swift */; };
+		846360E41E5F2DD100299646 /* YADMusicAPI_WRAPPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360E31E5F2DD100299646 /* YADMusicAPI_WRAPPER.swift */; };
+		846360E61E5F2DEE00299646 /* YADSettingAPI_WRAPPER.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360E51E5F2DEE00299646 /* YADSettingAPI_WRAPPER.swift */; };
+		846360E81E5F2FB100299646 /* YADPhotoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360E71E5F2FB100299646 /* YADPhotoPresenter.swift */; };
+		846360EA1E5F307200299646 /* YADVideoPeresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360E91E5F307200299646 /* YADVideoPeresenter.swift */; };
+		846360EC1E5F30B900299646 /* YADMusicPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360EB1E5F30B900299646 /* YADMusicPresenter.swift */; };
+		846360EE1E5F316900299646 /* YADSettingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846360ED1E5F316900299646 /* YADSettingPresenter.swift */; };
 		8944A0CD1E51BA1C009C55DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944A0CC1E51BA1C009C55DD /* AppDelegate.swift */; };
 		8944A0D21E51BA1C009C55DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8944A0D01E51BA1C009C55DD /* Main.storyboard */; };
 		8944A0D51E51BA1C009C55DD /* Ya_disk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8944A0D31E51BA1C009C55DD /* Ya_disk.xcdatamodeld */; };
@@ -41,6 +57,22 @@
 		8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADPhotoViewController.swift; sourceTree = "<group>"; };
 		8407C32F1E5357A600B09BEA /* Setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		8407C3311E53581E00B09BEA /* YADSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADSettingViewController.swift; sourceTree = "<group>"; };
+		846360CF1E5F2B7200299646 /* YADPhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADPhotoManager.swift; sourceTree = "<group>"; };
+		846360D11E5F2BA400299646 /* YADVideoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADVideoManager.swift; sourceTree = "<group>"; };
+		846360D31E5F2BCF00299646 /* YADMusicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADMusicManager.swift; sourceTree = "<group>"; };
+		846360D51E5F2C3D00299646 /* YADSettingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADSettingManager.swift; sourceTree = "<group>"; };
+		846360D71E5F2CAC00299646 /* YADPhotoOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADPhotoOperation.swift; sourceTree = "<group>"; };
+		846360D91E5F2CD500299646 /* YADVideoOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADVideoOperation.swift; sourceTree = "<group>"; };
+		846360DB1E5F2CF500299646 /* YADMusicOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADMusicOperation.swift; sourceTree = "<group>"; };
+		846360DD1E5F2D1000299646 /* YADSettingOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADSettingOperation.swift; sourceTree = "<group>"; };
+		846360DF1E5F2D7B00299646 /* YADPhotoAPI_WRAPPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADPhotoAPI_WRAPPER.swift; sourceTree = "<group>"; };
+		846360E11E5F2DAE00299646 /* YADVideoAPI_WRAPPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADVideoAPI_WRAPPER.swift; sourceTree = "<group>"; };
+		846360E31E5F2DD100299646 /* YADMusicAPI_WRAPPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADMusicAPI_WRAPPER.swift; sourceTree = "<group>"; };
+		846360E51E5F2DEE00299646 /* YADSettingAPI_WRAPPER.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADSettingAPI_WRAPPER.swift; sourceTree = "<group>"; };
+		846360E71E5F2FB100299646 /* YADPhotoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADPhotoPresenter.swift; sourceTree = "<group>"; };
+		846360E91E5F307200299646 /* YADVideoPeresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADVideoPeresenter.swift; sourceTree = "<group>"; };
+		846360EB1E5F30B900299646 /* YADMusicPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADMusicPresenter.swift; sourceTree = "<group>"; };
+		846360ED1E5F316900299646 /* YADSettingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YADSettingPresenter.swift; sourceTree = "<group>"; };
 		8944A0C91E51BA1C009C55DD /* Ya.disk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ya.disk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8944A0CC1E51BA1C009C55DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8944A0D11E51BA1C009C55DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,20 +135,56 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8407C3291E534D6200B09BEA /* Photo */ = {
+		846360CB1E5F290400299646 /* Photo Userstory */ = {
 			isa = PBXGroup;
 			children = (
+				846360D71E5F2CAC00299646 /* YADPhotoOperation.swift */,
+				846360CF1E5F2B7200299646 /* YADPhotoManager.swift */,
+				8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */,
 				8407C32A1E534D7700B09BEA /* Photo.storyboard */,
+				846360DF1E5F2D7B00299646 /* YADPhotoAPI_WRAPPER.swift */,
+				846360E71E5F2FB100299646 /* YADPhotoPresenter.swift */,
 			);
-			name = Photo;
+			name = "Photo Userstory";
 			sourceTree = "<group>";
 		};
-		8407C32E1E5350C400B09BEA /* Setting */ = {
+		846360CC1E5F297F00299646 /* Video Userstory */ = {
 			isa = PBXGroup;
 			children = (
-				8407C32F1E5357A600B09BEA /* Setting.storyboard */,
+				846360D91E5F2CD500299646 /* YADVideoOperation.swift */,
+				846360D11E5F2BA400299646 /* YADVideoManager.swift */,
+				89BE853F1E54982400954040 /* YADVideoViewController.swift */,
+				89BE85441E54986F00954040 /* Video.storyboard */,
+				846360E11E5F2DAE00299646 /* YADVideoAPI_WRAPPER.swift */,
+				846360E91E5F307200299646 /* YADVideoPeresenter.swift */,
 			);
-			name = Setting;
+			name = "Video Userstory";
+			sourceTree = "<group>";
+		};
+		846360CD1E5F299000299646 /* Music Userstory */ = {
+			isa = PBXGroup;
+			children = (
+				846360DB1E5F2CF500299646 /* YADMusicOperation.swift */,
+				846360D31E5F2BCF00299646 /* YADMusicManager.swift */,
+				89BE85411E54984700954040 /* YADMusicViewController.swift */,
+				89BE85471E549A3600954040 /* Music.storyboard */,
+				846360E31E5F2DD100299646 /* YADMusicAPI_WRAPPER.swift */,
+				846360EB1E5F30B900299646 /* YADMusicPresenter.swift */,
+			);
+			name = "Music Userstory";
+			sourceTree = "<group>";
+		};
+		846360CE1E5F29AC00299646 /* Setting Userstory */ = {
+			isa = PBXGroup;
+			children = (
+				846360DD1E5F2D1000299646 /* YADSettingOperation.swift */,
+				846360D51E5F2C3D00299646 /* YADSettingManager.swift */,
+				8407C3311E53581E00B09BEA /* YADSettingViewController.swift */,
+				8407C32F1E5357A600B09BEA /* Setting.storyboard */,
+				846360E51E5F2DEE00299646 /* YADSettingAPI_WRAPPER.swift */,
+				846360ED1E5F316900299646 /* YADSettingPresenter.swift */,
+			);
+			name = "Setting Userstory";
 			sourceTree = "<group>";
 		};
 		8944A0C01E51BA1B009C55DD = {
@@ -140,6 +208,10 @@
 		8944A0CB1E51BA1C009C55DD /* Ya.disk */ = {
 			isa = PBXGroup;
 			children = (
+				846360CE1E5F29AC00299646 /* Setting Userstory */,
+				846360CD1E5F299000299646 /* Music Userstory */,
+				846360CC1E5F297F00299646 /* Video Userstory */,
+				846360CB1E5F290400299646 /* Photo Userstory */,
 				89BE85251E51C53000954040 /* Managers */,
 				89BE85201E51BE9D00954040 /* Presenter */,
 				89BE851F1E51BE8F00954040 /* Dependency Injector */,
@@ -157,11 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				89BE85231E51C33F00954040 /* YADBaseView.swift */,
-				8407C32C1E534D9F00B09BEA /* YADPhotoViewController.swift */,
 				89BE85341E51F97A00954040 /* YADBaseTabbarController.swift */,
-				8407C3311E53581E00B09BEA /* YADSettingViewController.swift */,
-				89BE853F1E54982400954040 /* YADVideoViewController.swift */,
-				89BE85411E54984700954040 /* YADMusicViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -237,10 +305,6 @@
 		89BE85301E51F86E00954040 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				89BE85461E549A2100954040 /* Music */,
-				89BE85431E54985000954040 /* Video */,
-				8407C32E1E5350C400B09BEA /* Setting */,
-				8407C3291E534D6200B09BEA /* Photo */,
 				89BE85311E51F88200954040 /* Global_READONLY */,
 			);
 			name = Storyboards;
@@ -253,22 +317,6 @@
 				8944A0D81E51BA1C009C55DD /* LaunchScreen.storyboard */,
 			);
 			name = Global_READONLY;
-			sourceTree = "<group>";
-		};
-		89BE85431E54985000954040 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				89BE85441E54986F00954040 /* Video.storyboard */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		89BE85461E549A2100954040 /* Music */ = {
-			isa = PBXGroup;
-			children = (
-				89BE85471E549A3600954040 /* Music.storyboard */,
-			);
-			name = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,20 +448,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846360D21E5F2BA400299646 /* YADVideoManager.swift in Sources */,
+				846360E01E5F2D7B00299646 /* YADPhotoAPI_WRAPPER.swift in Sources */,
+				846360E61E5F2DEE00299646 /* YADSettingAPI_WRAPPER.swift in Sources */,
+				846360D41E5F2BCF00299646 /* YADMusicManager.swift in Sources */,
 				8407C3321E53581E00B09BEA /* YADSettingViewController.swift in Sources */,
 				89BE85241E51C33F00954040 /* YADBaseView.swift in Sources */,
+				846360DA1E5F2CD500299646 /* YADVideoOperation.swift in Sources */,
 				8407C32D1E534D9F00B09BEA /* YADPhotoViewController.swift in Sources */,
 				89BE85421E54984700954040 /* YADMusicViewController.swift in Sources */,
 				89BE85221E51C26D00954040 /* YADBasePresenter.swift in Sources */,
+				846360D61E5F2C3D00299646 /* YADSettingManager.swift in Sources */,
+				846360DE1E5F2D1000299646 /* YADSettingOperation.swift in Sources */,
+				846360E21E5F2DAE00299646 /* YADVideoAPI_WRAPPER.swift in Sources */,
 				89BE85291E51CB6000954040 /* YADOperationManager.swift in Sources */,
 				8944A0CD1E51BA1C009C55DD /* AppDelegate.swift in Sources */,
 				89BE85271E51C55400954040 /* YADCoreDataManager.swift in Sources */,
+				846360E41E5F2DD100299646 /* YADMusicAPI_WRAPPER.swift in Sources */,
+				846360D81E5F2CAC00299646 /* YADPhotoOperation.swift in Sources */,
 				89BE852F1E51E3FE00954040 /* YADGlobalAPI_WRAPPER.swift in Sources */,
 				8944A0D51E51BA1C009C55DD /* Ya_disk.xcdatamodeld in Sources */,
+				846360EE1E5F316900299646 /* YADSettingPresenter.swift in Sources */,
 				89BE852D1E51D4DC00954040 /* YADConst.swift in Sources */,
+				846360EA1E5F307200299646 /* YADVideoPeresenter.swift in Sources */,
+				846360DC1E5F2CF500299646 /* YADMusicOperation.swift in Sources */,
 				89BE85401E54982400954040 /* YADVideoViewController.swift in Sources */,
 				89BE852B1E51CCAE00954040 /* YADDependencyInjector.swift in Sources */,
 				89BE85351E51F97A00954040 /* YADBaseTabbarController.swift in Sources */,
+				846360E81E5F2FB100299646 /* YADPhotoPresenter.swift in Sources */,
+				846360D01E5F2B7200299646 /* YADPhotoManager.swift in Sources */,
+				846360EC1E5F30B900299646 /* YADMusicPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
